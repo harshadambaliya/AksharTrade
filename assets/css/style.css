@@ -1,0 +1,405 @@
+/**************************** Deafult Start ********************************/
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+.at-site {
+    font-family: 'Quicksand', sans-serif;
+    background-color: #F8FAFF;
+}
+
+a {
+    transition: all ease-in-out 0.3s;
+}
+
+.btn {
+    padding: 7px 32px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.btn-dark {
+    background-color: #092038;
+    border-color: #092038;
+}
+
+.at-section-title {
+    font-size: 50px;
+    color: #0E0E0E;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.at-section-description {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+.at-input-icon {
+    position: absolute;
+    left: 15px;
+    z-index: 10;
+    top: 10px;
+    width: 25px;
+    height: 25px;
+}
+
+.at-input-icon img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+}
+
+.form-control {
+    border: 1px solid #1C1C1C;
+    border-radius: 4px;
+    background-color: #fff;
+    padding: 12px 15px 12px 55px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #0E0E0E;
+}
+
+.form-control::placeholder {
+    font-size: 16px;
+    font-weight: 500;
+    color: #0E0E0E;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border: 1px solid #1C1C1C;
+}
+
+.table>:not(caption)>*>* {
+    padding: 30px 55px;
+    border-color: #092038;
+}
+
+.form-check-input:checked {
+    background-color: #fff;
+    border-color: #092038;
+}
+
+.form-check-input:checked[type=radio] {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='2' fill='%23092038'/%3e%3c/svg%3e");
+}
+
+.form-check-input:focus {
+    box-shadow: none;
+}
+
+.at-form-input {
+    position: relative;
+}
+
+.form-label {
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.form-control:disabled,
+.form-control[readonly] {
+    background-color: rgba(28, 28, 28, 0.1);
+}
+
+.btn-success {
+    background-color: #58B182;
+    border-color: #58B182;
+}
+
+.btn-danger {
+    background-color: #DC4F50;
+    border-color: #DC4F50;
+}
+
+.text-danger {
+    color: #DC4F50!important;
+}
+
+
+/**************************** Deafult End ********************************/
+
+
+/**************************** Header Start ********************************/
+
+.navbar .nav-item {
+    margin: 0 17px;
+}
+
+.navbar .nav-link {
+    color: #092038;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.at-header-btn {
+    margin-left: 17px;
+}
+
+
+/**************************** Header End ********************************/
+
+
+/**************************** Home Page Start ********************************/
+
+.at-stock-slider-section {
+    background-color: #092038;
+    color: #ffffff;
+    padding: 40px 0;
+}
+
+.at-stock-slide__inner {
+    margin-right: 40px;
+}
+
+.at-stock-title {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 7px;
+}
+
+.at-stock-price {
+    margin-bottom: 0;
+}
+
+.at-stock-slide {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+}
+
+.at-landing-section {
+    padding: 240px 0;
+}
+
+.at-landing-section .at-section-title {
+    font-size: 70px;
+    margin-bottom: 35px;
+}
+
+.at-get-started-section {
+    padding: 100px 0;
+}
+
+.at-section-heading {
+    width: 760px;
+    max-width: 100%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.at-get-started-card {
+    padding: 100px 30px;
+    text-align: center;
+    border-radius: 15px;
+    background-size: cover;
+    background-position: center;
+}
+
+.at-get-started-title {
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.at-get-started-icon {
+    margin-bottom: 50px;
+    height: 95px;
+}
+
+.at-get-started-icon img {
+    max-height: 100%;
+}
+
+.at-coming-together-section {
+    padding: 100px 0;
+    background-color: #fff;
+}
+
+.at-coming-together-img img {
+    border-radius: 15px;
+    width: 100%;
+}
+
+.take-market-section {
+    padding: 100px 0;
+}
+
+.at-newslatter-ection {
+    padding: 100px 0;
+}
+
+
+/**************************** Home Page End ********************************/
+
+
+/**************************** Dashboard Page Start ********************************/
+
+.at-all-stock-section {
+    padding: 100px 0;
+}
+
+.nav-tabs {
+    border-bottom: 1px solid rgba(9, 32, 56, 0.2);
+}
+
+.nav-tabs .nav-link {
+    color: rgba(9, 32, 56, 0.7);
+    font-size: 18px;
+    font-weight: 700;
+    padding: 10px 52px;
+}
+
+.nav-tabs .nav-item .nav-link:hover,
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+    color: rgba(9, 32, 56, 1);
+    background-color: transparent;
+    border-color: transparent transparent #092038;
+}
+
+.table td {
+    color: #092038;
+    font-size: 18px;
+    font-weight: 700;
+    vertical-align: middle;
+}
+
+.at-stock-category {
+    font-size: 14px;
+    font-weight: normal;
+    color: #A8A8A8;
+    margin-left: 10px;
+}
+
+.at-stock-value-position {
+    font-weight: normal;
+}
+
+.at-stock-details {
+    padding: 25px 60px;
+    background-color: #fff;
+    border-radius: 20px;
+    border: 1px solid rgba(9, 32, 56, 0.5);
+}
+
+.at-stock-label {
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.at-stock-text {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.at-stock-seprate {
+    font-size: 14px;
+}
+
+.at-stock-value {
+    font-size: 14px;
+}
+
+.at-stock-overview-content__inner {
+    padding: 0 40px;
+    position: relative;
+    margin-top: 25px;
+}
+
+.at-stock-overview-content .row .col:first-child .at-stock-overview-content__inner:after {
+    content: "";
+    width: 1px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: -15px;
+    background-color: #092038;
+}
+
+.at-stoke-content__inner {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    padding: 20px 40px 0;
+    justify-content: space-between;
+}
+
+.at-stock-overview-content .row {
+    border-bottom: 1px solid rgba(7, 21, 37, 0.5);
+}
+
+.at-stoke-content-label {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.at-stoke-content__inner .form-check {
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.at-stoke-detail-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.at-stoke-detail-btn .btn {
+    margin: 0 10px;
+    min-width: 180px;
+    max-width: 50%;
+}
+
+.at-option-chain-date {
+    display: flex;
+    align-items: center;
+}
+
+.at-option-chain-date .form-control {
+    padding: 0;
+    border: none;
+    width: auto;
+    margin-left: 20px;
+}
+
+.at-inner-table {
+    margin-top: 20px;
+}
+
+.at-inner-table td {
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.at-inner-table thead th {
+    border-top: 1px solid #000;
+}
+
+.at-inner-table th {
+    font-size: 14px;
+}
+
+.at-inner-table>:not(caption)>*>* {
+    padding: 10px 30px;
+}
+
+.at-option-chain-table td span {
+    display: block;
+}
+
+.at-option-chain-table td:last-child,
+.at-option-chain-table th:last-child {
+    background-color: #F8FAFF;
+    text-align: center;
+}
+
+
+/**************************** Dashboard Page End ********************************/

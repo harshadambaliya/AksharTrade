@@ -1,59 +1,19 @@
 $(document).ready(function() {
 
-    $('.at-stock-slider').slick({
-        dots: false,
-        infinite: true,
-        arrows: false,
-        speed: 5000,
-        // autoplay: true,
-        autoplaySpeed: 0,
-        cssEase: 'linear',
-        slidesToShow: 4,
-        slidesToScroll: 1,
-        responsive: [{
-                breakpoint: 991,
-                settings: {
-                    slidesToShow: 3,
-                    slidesToScroll: 1
-                }
-            },
-            {
-                breakpoint: 767,
-                settings: {
-                    slidesToShow: 2,
-                    slidesToScroll: 1
-                }
-            }
-        ]
-    });
 
-    $('input[name=callPutRadio]').change(function() {
-        if (this.value == 'call') {
-            $('.at-option-put-content').addClass('d-none');
-            $('.at-option-call-content').removeClass('d-none');
-        } else if (this.value == 'put') {
-            $('.at-option-put-content').removeClass('d-none');
-            $('.at-option-call-content').addClass('d-none');
-        }
-    });
-
-    $('.at-stock-label').on('click', function() {
-        $(this).next('.at-stock-content').toggleClass('d-none');
-    });
-
-    var myNiftyChart = document.getElementById("myNiftyChart");
-    var myChart = new Chart(myNiftyChart, {
+    var OrderONGCChart = document.getElementById("OrderONGCChart");
+    var myChart = new Chart(OrderONGCChart, {
         type: 'line',
         data: {
             labels: ["day", "month", "year", "years", "day", "month", "year", "years"],
             datasets: [{
                 label: '',
-                data: [1500, 50, 2424, 1000, 1500, 50, 2424, 1000],
+                data: [100, 5000, 2424, 2700, 100, 1500, 1024, 500],
                 fill: false,
                 borderColor: '#092038',
                 backgroundColor: 'transparent',
                 borderWidth: 1,
-                borderColor: '#fff',
+                borderColor: '#DC4F50',
                 pointBorderColor: '#fff',
                 pointBackgroundColor: '#fff',
                 pointHoverBackgroundColor: '#fff',
@@ -80,19 +40,19 @@ $(document).ready(function() {
         }
     });
 
-    var myNiftyChart1 = document.getElementById("myNiftyChart1");
-    var myChart = new Chart(myNiftyChart1, {
+    var OrderTCSChart = document.getElementById("OrderTCSChart");
+    var myChart = new Chart(OrderTCSChart, {
         type: 'line',
         data: {
             labels: ["day", "month", "year", "years", "day", "month", "year", "years"],
             datasets: [{
                 label: '',
-                data: [100, 2500, 1524, 200, 1800, 5000, 524, 1000],
+                data: [100, 5000, 2424, 2700, 100, 1500, 1024, 500],
                 fill: false,
                 borderColor: '#092038',
                 backgroundColor: 'transparent',
                 borderWidth: 1,
-                borderColor: '#fff',
+                borderColor: '#DC4F50',
                 pointBorderColor: '#fff',
                 pointBackgroundColor: '#fff',
                 pointHoverBackgroundColor: '#fff',
@@ -119,19 +79,19 @@ $(document).ready(function() {
         }
     });
 
-    var myNiftyChart2 = document.getElementById("myNiftyChart2");
-    var myChart = new Chart(myNiftyChart2, {
+    var OrderHDFCBANKChart = document.getElementById("OrderHDFCBANKChart");
+    var myChart = new Chart(OrderHDFCBANKChart, {
         type: 'line',
         data: {
             labels: ["day", "month", "year", "years", "day", "month", "year", "years"],
             datasets: [{
                 label: '',
-                data: [1500, 50, 2424, 1000, 1500, 50, 2424, 1000],
+                data: [100, 1500, 1324, 5000, 100, 1500, 1024, 1500],
                 fill: false,
                 borderColor: '#092038',
                 backgroundColor: 'transparent',
                 borderWidth: 1,
-                borderColor: '#fff',
+                borderColor: '#58B182',
                 pointBorderColor: '#fff',
                 pointBackgroundColor: '#fff',
                 pointHoverBackgroundColor: '#fff',
@@ -158,19 +118,19 @@ $(document).ready(function() {
         }
     });
 
-    var myNiftyChart3 = document.getElementById("myNiftyChart3");
-    var myChart = new Chart(myNiftyChart3, {
+    var OrderONGCChart1 = document.getElementById("OrderONGCChart1");
+    var myChart = new Chart(OrderONGCChart1, {
         type: 'line',
         data: {
             labels: ["day", "month", "year", "years", "day", "month", "year", "years"],
             datasets: [{
                 label: '',
-                data: [1500, 50, 2424, 1000, 1500, 50, 2424, 1000],
+                data: [100, 5000, 2424, 2700, 100, 1500, 1024, 500],
                 fill: false,
                 borderColor: '#092038',
                 backgroundColor: 'transparent',
                 borderWidth: 1,
-                borderColor: '#fff',
+                borderColor: '#DC4F50',
                 pointBorderColor: '#fff',
                 pointBackgroundColor: '#fff',
                 pointHoverBackgroundColor: '#fff',
@@ -197,19 +157,19 @@ $(document).ready(function() {
         }
     });
 
-    var myNiftyChart4 = document.getElementById("myNiftyChart4");
-    var myChart = new Chart(myNiftyChart4, {
+    var OrderTCSChart1 = document.getElementById("OrderTCSChart1");
+    var myChart = new Chart(OrderTCSChart1, {
         type: 'line',
         data: {
             labels: ["day", "month", "year", "years", "day", "month", "year", "years"],
             datasets: [{
                 label: '',
-                data: [1500, 50, 2424, 1000, 1500, 50, 2424, 1000],
+                data: [100, 5000, 2424, 2700, 100, 1500, 1024, 500],
                 fill: false,
                 borderColor: '#092038',
                 backgroundColor: 'transparent',
                 borderWidth: 1,
-                borderColor: '#fff',
+                borderColor: '#DC4F50',
                 pointBorderColor: '#fff',
                 pointBackgroundColor: '#fff',
                 pointHoverBackgroundColor: '#fff',
@@ -236,19 +196,19 @@ $(document).ready(function() {
         }
     });
 
-    var myNiftyChart5 = document.getElementById("myNiftyChart5");
-    var myChart = new Chart(myNiftyChart5, {
+    var OrderHDFCBANKChart1 = document.getElementById("OrderHDFCBANKChart1");
+    var myChart = new Chart(OrderHDFCBANKChart1, {
         type: 'line',
         data: {
             labels: ["day", "month", "year", "years", "day", "month", "year", "years"],
             datasets: [{
                 label: '',
-                data: [1500, 50, 2424, 1000, 1500, 50, 2424, 1000],
+                data: [100, 1500, 1324, 5000, 100, 1500, 1024, 1500],
                 fill: false,
                 borderColor: '#092038',
                 backgroundColor: 'transparent',
                 borderWidth: 1,
-                borderColor: '#fff',
+                borderColor: '#58B182',
                 pointBorderColor: '#fff',
                 pointBackgroundColor: '#fff',
                 pointHoverBackgroundColor: '#fff',

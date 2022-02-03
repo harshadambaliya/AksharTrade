@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akshar Trade</title>
+
+    <!-- Link All Css -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/slick.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- Link All JS -->
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/chart.js"></script>
+    <script src="assets/js/slick.min.js"></script>
+    <script src="assets/js/order-chart.js"></script>
+    <script src="assets/js/custom.js"></script>
+</head>
+
+<body class="at-site">
+    <!-- Site Header Start -->
+    <header class="at-site-header d-none">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <img src="assets/images/logo.png" alt="logo" class="img-fluid">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Priacy Policy</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="at-header-btn">
+                    <div class="dropdown">
+                        <span class="at-user-profile-img dropdown-toggle" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                            <img src="assets/images/coming-together-img.png" alt="coming-together-img" class="img-fluid">
+                        </span>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                            <li><a class="dropdown-item" href="order.html">My Order</a></li>
+                            <li><a class="dropdown-item" href="history.html">History</a></li>
+                            <li><a class="dropdown-item" href="index.html">Log out</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- Site Header End -->
+
+    <!-- Site Content Start -->
+    <main class="at-site-content">
+        <!-- Stock Slider Section Start -->
+        <section class="at-stock-slider-section d-none">
+            <div class="at-stock-slider">
+                <div class="at-stock-slide">
+                    <div class="at-stock-slide__inner">
+                        <h3 class="at-stock-title">Nifty</h3>
+                        <p class="at-stock-price">₹ 16280.10</p>
+                    </div>
+                    <div class="at-stock-chart">
+                        <canvas class="myNiftyChart" id="myNiftyChart" width="100" height="60"></canvas>
+                    </div>
+                </div>
+                <div class="at-stock-slide">
+                    <div class="at-stock-slide__inner">
+                        <h3 class="at-stock-title">Sensex</h3>
+                        <p class="at-stock-price">₹ 54554.66</p>
+                    </div>
+                    <div class="at-stock-chart">
+                        <canvas class="myNiftyChart" id="myNiftyChart1" width="100" height="60"></canvas>
+                    </div>
+                </div>
+                <div class="at-stock-slide">
+                    <div class="at-stock-slide__inner">
+                        <h3 class="at-stock-title">Nifty</h3>
+                        <p class="at-stock-price">₹ 16280.10</p>
+                    </div>
+                    <div class="at-stock-chart">
+                        <canvas class="myNiftyChart" id="myNiftyChart2" width="100" height="60"></canvas>
+                    </div>
+                </div>
+                <div class="at-stock-slide">
+                    <div class="at-stock-slide__inner">
+                        <h3 class="at-stock-title">Sensex</h3>
+                        <p class="at-stock-price">₹ 54554.66</p>
+                    </div>
+                    <div class="at-stock-chart">
+                        <canvas class="myNiftyChart" id="myNiftyChart3" width="100" height="60"></canvas>
+                    </div>
+                </div>
+                <div class="at-stock-slide">
+                    <div class="at-stock-slide__inner">
+                        <h3 class="at-stock-title">Nifty</h3>
+                        <p class="at-stock-price">₹ 16280.10</p>
+                    </div>
+                    <div class="at-stock-chart">
+                        <canvas class="myNiftyChart" id="myNiftyChart4" width="100" height="60"></canvas>
+                    </div>
+                </div>
+                <div class="at-stock-slide">
+                    <div class="at-stock-slide__inner">
+                        <h3 class="at-stock-title">Sensex</h3>
+                        <p class="at-stock-price">₹ 54554.66</p>
+                    </div>
+                    <div class="at-stock-chart">
+                        <canvas class="myNiftyChart" id="myNiftyChart5" width="100" height="60"></canvas>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Stock Slider Section End -->
+
+        <!-- Login Section Start -->
+        <section class="at-login-section">
+            <div class="row g-0">
+                <div class="col col-12 col-md-6 col-lg-6">
+                    <div class="at-login-img-content">
+                        <div class="at-login-img">
+                            <img src="assets/images/login-img.png" alt="login" class="img-fluid">
+                        </div>
+                        <div class="at-login-logo">
+                            <img src="assets/images/login-logo.png" alt="login-logo" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-12 col-md-6 col-lg-6">
+                    <div class="at-login-content">
+                        <div class="at-login-content__inner">
+                            <div class="at-login-heading">
+                                <h1 class="at-section-title text-center">Get Started</h1>
+                                <p class="at-sectio-description text-center">Already have an account? <a href="login.html" class="at-section-link">Sign In</a></p>
+                            </div>
+                            <div class="at-login-form">
+                                <form class="row g-4" action="dashboard.html">
+                                    <div class="col-md-12">
+                                        <label for="inputUserId" class="form-label">User Id</label>
+                                        <div class="at-form-input">
+                                            <input type="email" class="form-control" id="inputUserId" placeholder="Enter User Id">
+                                            <span class="at-input-icon"><img src="assets/images/email-icon.png" alt="email-icon"></span>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <label for="inputmobile" class="form-label">Mobile Number</label>
+                                        <div class="at-form-input">
+                                            <input type="text" class="form-control" id="inputmobile" placeholder="Enter Mobile Number">
+                                            <span class="at-input-icon"><img src="assets/images/mobile-icon.png" alt="mobile-icon"></span>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <label for="inputPassword" class="form-label">Password</label>
+                                        <div class="at-form-input">
+                                            <input type="password" class="form-control" id="inputPassword" placeholder="Enter Password">
+                                            <span class="at-input-icon"><img src="assets/images/password-icon.png" alt="password-icon"></span>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <button type="submit" class="btn btn-dark w-100">Register Now</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Login Section End -->
+    </main>
+    <!-- Site Content End -->
+
+    <!-- Site Footer Start -->
+    <footer class="at-site-footer d-none">
+        <div class="container">
+            <div class="at-site-footer__inner">
+                <div class="at-footer-logo">
+                    <img src="assets/images/footer-logo.png" alt="footer-logo" class="img-fluid">
+                </div>
+                <p class="at-site-copyright-text">Copyrights @2022. All rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <!-- Site Footer End -->
+</body>
+
+</html>

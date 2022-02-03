@@ -1,11 +1,13 @@
 $(document).ready(function() {
-
+    $('.navbar-toggler').on('click', function() {
+        $('body').toggleClass('at-menu-open');
+    });
     $('.at-stock-slider').slick({
         dots: false,
         infinite: true,
         arrows: false,
         speed: 5000,
-        // autoplay: true,
+        autoplay: true,
         autoplaySpeed: 0,
         cssEase: 'linear',
         slidesToShow: 4,
@@ -20,7 +22,7 @@ $(document).ready(function() {
             {
                 breakpoint: 767,
                 settings: {
-                    slidesToShow: 2,
+                    slidesToShow: 1,
                     slidesToScroll: 1
                 }
             }
